@@ -1,6 +1,7 @@
 
 *{
-    font-family: 'Work Sans';
+    /* font-family: 'Kanit', sans-serif;
+    font-family: 'Open Sans', sans-serif; */
 }
 body{
    
@@ -26,7 +27,7 @@ body{
 
   .btn-second{
     width: 170px;
-    height: 100px;
+    height: 120px;
     font-size: 25px;
     font-weight: 800;
     border-radius: 5px;
@@ -148,4 +149,79 @@ body{
     padding-top: 20px;
     width: 350px;
     height: 480px;
+}
+
+/* -------------------
+    section4
+---------------------- */
+
+.section4{
+    width: 720px;
+   
+    margin: 0 auto;
+}
+.sec4-div1{
+    width: 280px;
+}
+.sec4-div1 h1{
+    font-size: 35px;
+}
+.sec4-div2{
+    display: flex;
+    gap: 20px;
+}
+.sec4-title{
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    background-color: rgb(212, 197, 168);
+}
+.sec4-title:hover{
+    background-color: red;
+}
+
+/* --------------------------
+        section5
+------------------------------ */
+
+.section5{
+    width: 720px;
+   
+    margin: 0 auto;
+}
+.sec5-div1{
+   text-align: center;
+    width: 280px;
+   align-items: center;
+   
+}
+.sec5-div2{
+   display: flex;
+   gap: 20px;
+}
+.sec5-title{
+    width: 160px;
+    
+   
+   
+    text-align: center;
+    background-color: aqua;
+    margin-bottom: 30px;
+}
+.sec5-title img{
+    width: 90px;
+    height: 40px;
+}
+
+/* --------------------------
+           Footer
+------------------------------ */
+
+footer{
+    background-color: antiquewhite;
+    width: 820px;
+    height: 60px;
+    padding: 30px;
+    margin: 0 auto;
+    text-align: center;
 }
