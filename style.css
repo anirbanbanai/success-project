@@ -51,7 +51,7 @@ body {
 
 .header {
 
-    width: 500px;
+    width: 720px;
     height: 90px;
     padding: 20px;
     display: flex;
@@ -314,13 +314,10 @@ footer {
 @media only screen and (max-width: 576px) {
 
     
-    .header
-     {
-        display: none;
-    }
+   
 
 
-    body {}
+    
 
     /* ------------------
            section 1
@@ -329,8 +326,14 @@ footer {
 
 
     .header {
-        display: none;
+      width: 300px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
 
+    }
+
+    .header-div1{
+        text-align: center;
     }
 
     .sec1-div1 {
